@@ -32,7 +32,7 @@ Console.WriteLine("Enter M: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter N: ");
 int n = Convert.ToInt32(Console.ReadLine());
-double[,] matrix = new double[m, n];
+double[,] matrix = {{1,2,3,4},{1,2,3,4},{1,2,3,4}};
 FillArray(matrix);
 Console.WriteLine();
 PrintArray(matrix);
